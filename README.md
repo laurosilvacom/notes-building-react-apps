@@ -179,7 +179,7 @@ data and error information.
 
 📜 https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
 
-### 🏎 Authenticated HTTP requests
+# 🏎 Authenticated HTTP requests
 
 
 Here's an example of how to make an authenticated request:
