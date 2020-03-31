@@ -1,4 +1,6 @@
-# Notes
+# ✨ Notes ✨
+
+# Styling
 
 
 - There are two ways to use emotion, and typically you use both of them in any
