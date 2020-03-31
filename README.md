@@ -1,7 +1,7 @@
 <h1 align="center">✨ Notes ✨</h1>
 
 
-# 👩‍🎤Styling
+# 👩‍🎤 Styling
 
 
 - There are two ways to use emotion, and typically you use both of them in any
@@ -37,6 +37,7 @@ const Button = styled.button({
 ```
 
 - You can even accept props by passing a function and returning the styles!
+  - 📜 https://emotion.sh/docs/styled
 
 ```javascript
 const Button = styled.button(props => {
@@ -52,7 +53,6 @@ const Button = styled.button`
 `
 ```
 
-- 📜 https://emotion.sh/docs/styled
 
 ### Using emotion's css prop
 
