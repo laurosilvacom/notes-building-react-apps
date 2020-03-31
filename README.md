@@ -1,6 +1,6 @@
 # ✨ Notes ✨
 
-# Styling
+# 👩‍🎤Styling
 
 
 - There are two ways to use emotion, and typically you use both of them in any
@@ -122,7 +122,7 @@ function SomeComponent() {
 
 - 📜 https://emotion.sh/docs/css-prop
 
-# Make HTTP Requests
+# 📞 HTTP Requests
 
 - Here's a quick simple example of that API in action:
 
