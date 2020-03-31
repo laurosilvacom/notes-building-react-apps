@@ -175,6 +175,7 @@ It's good practice to wrap `window.fetch` in your own function so you can set
 defaults (especially handy for authentication). Integrating this kind of thing
 with React involves utilizing React's `useEffect` hook for making the request
 and `useState` for managing the status of the request as well as the response
-data and error information. 📜
-https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+data and error information. 
+
+📜 https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
 
