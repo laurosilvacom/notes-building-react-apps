@@ -124,8 +124,6 @@ function SomeComponent() {
 
 # Make HTTP Requests
 
-## Background
-
 - Here's a quick simple example of that API in action:
 
 ```javascript
