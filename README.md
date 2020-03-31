@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://egghead.io/courses/thinking-reactively-with-rxjs">✨ Notes ✨</a></h1>
+<h1 align="center">✨ Notes ✨</h1>
 
 
 # 👩‍🎤Styling
