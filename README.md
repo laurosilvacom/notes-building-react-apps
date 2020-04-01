@@ -210,19 +210,12 @@ In a React application you manage user authenticated state the same way you
 manage any state: `useState` + `useEffect` (for making the request). When the
 user providers a username and password, you make a request and if the request is
 successful, the server will return the token to you which you can store in
-`localStorage` for making additional requests. Often, in addition to the token,
-the server will also respond with the user's information which you can store in
-state and use it to display the user's data.
+`localStorage` for making additional requests. 
 
 The easiest way to manage displaying the right content to the user based on
 whether they've logged in, is to split your app into two parts: Authenticated,
 and Unauthenticated. Then you choose which to render based on whether you have
 the user's information.
-
-And when the app loads in the first place, you'll want to check if you have a
-token. If you do, then show a loading screen while you request the user's data
-before rendering anything else. If you don't have a token, then you know you can
-render the login screen right away.
 
 📜 Learn more about this:
 https://kentcdodds.com/blog/authentication-in-react-applications
@@ -246,10 +239,10 @@ https://github.com/ReactTraining/react-router/tree/v6.0.0-alpha.2/docs
 
 The idea behind routing on the web is you have some API that informs you of
 changes to the URL, then you react (no pun intended) to those changes by
-rendering the correct user interface based on that URL route. In addition, you
-can change the URL when the user performs an action (like clicking a link or
-submitting a form). This all happens client-side and does not reload the
-browser.
+rendering the correct user interface based on that URL route. 
+
+In addition, you can change the URL when the user performs an action (like clicking a link or
+submitting a form). This all happens client-side and does not reload the browser.
 
 # ⚙️ Cache Management
 
@@ -265,9 +258,7 @@ A fantastic solution for managing the server cache on the client is
 [`react-query`](https://github.com/tannerlinsley/react-query). It is a set of
 React hooks that allow you to query, cache, and mutate data on your server in a
 way that's flexible to support many use cases and optimizations but opinionated
-enough to provide a huge amount of value. And thanks to the power of hooks, we
-can build our own hooks on top of those provided to keep our component code
-really simple.
+enough to provide a huge amount of value.
 
 Here are a few examples of how you can use react-query that are relevant for our
 exercise:
